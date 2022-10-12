@@ -24,21 +24,24 @@ header div p{
     margin-top: 20%;
 }
 .chat img{
-    width: 300px;
+    width: 150px;
 }
 h1, h2{
     margin-left: 20px;
     color: white;
 }
 .carousel img{
-    margin: auto;
     height: 400px;
     width: 400px;
+    object-fit: contain;
 }
 .carousel-item{
 
     height: 400px;
 }
+
+
+/*partie contact*/
 .contact{
     background-color: darkorange;
     padding: 20px;
