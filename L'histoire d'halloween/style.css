@@ -26,11 +26,28 @@ header div p{
 .chat img{
     width: 300px;
 }
-.theme {
-    width: 150px;
-    height: 150px;
-    border-radius: 50px;
-}
-h2{
+h1, h2{
+    margin-left: 20px;
     color: white;
+}
+.carousel img{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+}
+.carousel-item{
+
+    height: 400px;
+}
+.contact{
+    background-color: darkorange;
+    padding: 20px;
+}
+
+.contact button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(249, 190, 81);
+    color: white;
+    border: none;
 }
