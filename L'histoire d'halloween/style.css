@@ -26,3 +26,11 @@ header div p{
 .chat img{
     width: 300px;
 }
+.theme {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+h2{
+    color: white;
+}
