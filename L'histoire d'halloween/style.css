@@ -18,12 +18,25 @@ header{
 .nav-link:hover{
     color: darkorange;
 }
+.dropdown-item:hover{
+background-color: darkorange;
+color: white;
+}
 header div p{
     color: white;
     font-size: 50px;
     text-align: center;
     margin-top: 20%;
 }
+.source{
+    color: white;
+    text-decoration: none;
+}
+.source:hover{
+    color: orange;
+    text-decoration: none;
+}
+
 .chat img{
  width: 150px;
 }
