@@ -1,73 +1,46 @@
-body{
+body {
     background-color: black;
 }
-header{
+/*partie header*/
+header {
     height: 600px;
     width: auto;
     background-size: cover;
-    background-image: url('images/newchateau.png');
+    background-image: url("images/chateau.png");
     background-repeat: no-repeat;
     box-shadow: 0px 3px 6px rgb(255, 209, 124);
-
 }
-
-.nav-link{
-    color: white;
-    font-weight: bold;
-}
-.nav-link:hover{
-    color: darkorange;
-}
-.dropdown-item:hover{
-background-color: darkorange;
-color: white;
-}
-header div p{
+header div p {
     color: white;
     font-size: 50px;
     text-align: center;
     margin-top: 20%;
 }
-.source{
+
+/*partie dropdown*/
+.dropdown-item:hover {
+    background-color: darkorange;
     color: white;
-    text-decoration: none;
-}
-.source:hover{
-    color: orange;
-    text-decoration: none;
 }
 
-.chat img{
- width: 150px;
-}
-h1, h2{
+/*les titres*/
+h1,
+h2 {
     margin-top: 20px;
     margin-left: 20px;
     color: white;
 }
-.carousel img{
-    height: 400px;
-    width: 400px;
-    object-fit: contain;
-}
-.carousel-item{
 
-    height: 400px;
-}
-
-
-/*partie contact*/
-.contact{
-    background-color: darkorange;
-    padding: 20px;
-}
-.contact h2{
-    margin-left: 0px;
-}
-.contact button{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: rgb(249, 190, 81);
+/*La source du texte, je retire la décoration*/
+.source {
     color: white;
-    border: none;
+    text-decoration: none;
+}
+.source:hover {
+    color: orange;
+}
+
+/*Image du chat*/
+.chat img {
+    width: 150px;
 }
