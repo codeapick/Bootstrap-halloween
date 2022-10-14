@@ -15,21 +15,21 @@
     <body>
 
         <header>
-            <nav class="navbar transparent navbar-expand-lg bg-transparent ">
+            <nav class="navbar  navbar-expand-lg bg-transparent">
                 <div class="container-fluid">
 
                     <div class="navbar navbar-expand-xl">
                         <a class="navbar-brand text-warning" href="#">Hallopick</a>
                     </div>
 
-                    <div class="btn-group dropstart">
+                    <div class="btn-group dropstart"> 
                         <button
                             type="button"
-                            class="btn btn-warning dropdown-toggle"
+                            class="btn btn-warning dropdown-toggle"  
                             data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                            aria-expanded="false">   <!--lorsque le panneau est déplié.--> <!--toggle permet d'afficher-->
 
-                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"></span> <!--sert à afficher un icône-->
 
                         </button>
                         <ul class="dropdown-menu">
@@ -37,25 +37,34 @@
                                 <a class="dropdown-item" href="#histoire">Histoire</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#themes">Themes</a>
+                                <a class="dropdown-item" href="#themes">Thèmes</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#contact">Nous contacter</a>
+                                <a class="dropdown-item" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
              </div>
                 </nav>
-                <div class="me-auto">
-                    <p>Venez découvrir l'histoire d'halloween</p>
+
+                <!--fin nav-->
+
+              <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Venez découvrir l'histoire d'halloween</p>
+                    </div>
                 </div>
+
+              </div>
+
             </header>
             <section id="histoire">
-                <h1>L'histoire d'halloween</h1>
+                <h1>L'histoire d'Halloween</h1>
 
-                <div class="container-fluid">
+                <div class="container-fluid ">
                     <div class="row">
-                        <div class="col-sm-8 col-md-4 my-4 text-light  ">
+                        <div class="col-sm-8 col-md-4 my-4 text-light">
                             <p>
                                 Halloween, ou l'Halloween en français canadien, est une fête folklorique et
                                 païenne traditionnelle originaire des îles Anglo-Celtes célébrée dans la soirée
@@ -71,7 +80,7 @@
                         <div class="col-sm-2 col-md-3 ms-0 chat">
                             <img src="images/chat.jpg" alt="">
                         </div>
-                        <div class="col-sm-8 col-md-4 text-light">
+                        <div class="col-sm-2 col-md-4 text-light">
                             <p> Halloween est ainsi connue jusqu'à nos jours sous le nom de Oíche Shamhna en
                                 gaélique.
                                 Elle est une fête très populaire en Irlande, en Écosse et au Pays de
@@ -85,69 +94,6 @@
                 </div>
             </section>
 
-            <section id="themes">
-                <h2 class="titre-theme">Des thèmes connus</h2>
-
-                <div
-                    id="carouselExampleControls"
-                    class="carousel slide"
-                    data-bs-ride="carousel">
-                 
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="images/sorciere.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="images/citrouilledecoration.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="images/phantomechien.png" class="d-block w-100" alt="...">
-                        </div>
-                      </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </section>
-
-            <!--partie contact-->
-            <section class="contact" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <h2>Nous contacter</h2>
-                        <div class=" col-sm-12 col-md-3">
-                            <label for="exampleFormControlInput1" class="form-label">Votre adresse email</label>
-                            <input
-                                type="email"
-                                class="form-control"
-                                id="exampleFormControlInput1"
-                                placeholder="name@exemple.com">
-                        </div>
-                        <div class="col-12" >
-                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Votre message</textarea>
-                        </div>
-                        <div class="mt-5 contact-message">
-                            <button type="submit">Envoyer</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <!--Script Bootstrap-->
             <script
                 src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -156,7 +102,7 @@
         </body>
     </html>
 
-    <!--Lien photos -
+    <!--Lien photos 
    - Photo du chat sur la lune:
     https://www.pexels.com/fr-fr/photo/photographie-de-chat-a-la-pleine-lune-35888/
    - Photo du chien phantôme :
@@ -165,5 +111,9 @@
     https://pixabay.com/images/id-6730731/
    -Image citrouille : 
     https://pixabay.com/images/id-2892303/
+   - Image château :
+    https://pixabay.com/images/id-5159011/
 
-    Lien texte : https://fr.wikipedia.org/wiki/Halloween -->
+   -Lien texte Wikipédia :
+    https://fr.wikipedia.org/wiki/Halloween 
+    -->
