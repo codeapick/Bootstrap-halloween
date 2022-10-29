@@ -44,3 +44,45 @@ h2 {
 .chat img {
     width: 150px;
 }
+
+@media (min-width:576px) and (max-width:768px){
+    .paragrapheun{
+        width: 500px;
+    }
+    .paragraphedeux{
+        width: 600px;
+    }
+}
+/*partie carousel*/
+
+
+.carousel img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+.carousel-item {
+    height: 400px;
+}
+
+/*partie contact*/
+
+.contact {
+    background-color: darkorange;
+    padding: 20px;
+}
+.contact h2 {
+    margin-left: 0px;
+}
+.contact button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(249, 190, 81);
+    color: white;
+    border: none;
+}
+
+.contact button:hover{
+    background-color: rgb(250, 221, 166);
+  color:black;
+}

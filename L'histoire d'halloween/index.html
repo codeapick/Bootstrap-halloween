@@ -64,7 +64,7 @@
 
                 <div class="container-fluid ">
                     <div class="row">
-                        <div class="col-sm-8 col-md-4 my-4 text-light">
+                        <div class="col-sm-8 col-md-4 my-4 text-light paragrapheun">
                             <p>
                                 Halloween, ou l'Halloween en français canadien, est une fête folklorique et
                                 païenne traditionnelle originaire des îles Anglo-Celtes célébrée dans la soirée
@@ -78,9 +78,9 @@
                               
                         </div>
                         <div class="col-sm-2 col-md-3 ms-0 chat">
-                            <img src="images/chat.jpg" alt="">
+                            <img src="images/chat.jpg" alt="image d'un chat devant la lune">
                         </div>
-                        <div class="col-sm-2 col-md-4 text-light">
+                        <div class="col-sm-2 col-md-4 text-light paragraphedeux">
                             <p> Halloween est ainsi connue jusqu'à nos jours sous le nom de Oíche Shamhna en
                                 gaélique.
                                 Elle est une fête très populaire en Irlande, en Écosse et au Pays de
@@ -94,6 +94,69 @@
                 </div>
             </section>
 
+            <section id="themes">
+                <h2 class="titre-theme">Des thèmes connus</h2>
+                <div
+                    id="carouselExampleControls"
+                    class="carousel slide"
+                    data-bs-ride="carousel">
+                 
+                    <div class="carousel-inner"> <!--on va créer l'intérieur du carousel-->
+                        <div class="carousel-item active"> <!--on va mettre l'image et on ajoute "active" pour faire apparaître cette diapo en premier-->
+                          <img src="images/sorciere.jpg" class="d-block w-100" alt="image d'une sorcière devant la lune"> <!--d-block = display:block-->
+                        </div>
+                        <div class="carousel-item"> 
+                          <img src="images/citrouilledecoration.jpg" class="d-block w-100" alt="image d'une citrouille">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/fantomechien.png" class="d-block w-100" alt="image d'un chien fantôme ">
+                        </div>
+                      </div>
+                      <!--on va créer dessous les flèches gauche et droite-->
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleControls" 
+                        data-bs-slide="prev">
+                         <!--data-bs-target: id de l'élément carousel--> <!-- data-bs-slide : modifie la position de la diapositive (left ou right) par rapport à sa position actuelle.-->
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span> <!--Ajoute un bouton gauche au carousel-->
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <!--partie contact-->
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <h2>Nous contacter</h2>
+                        <div class=" col-sm-12 col-md-3">
+                            <label for="exampleFormControlInput1" class="form-label">Votre adresse email</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                placeholder="name@exemple.com">
+                        </div>
+                        <div class="col-12" >
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="votre message"></textarea>
+                        </div>
+                        <div class="mt-5 contact-message">
+                            <button type="submit">Envoyer</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!--Script Bootstrap-->
             <script
                 src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -102,7 +165,7 @@
         </body>
     </html>
 
-    <!--Lien photos 
+    <!--Lien photos -
    - Photo du chat sur la lune:
     https://www.pexels.com/fr-fr/photo/photographie-de-chat-a-la-pleine-lune-35888/
    - Photo du chien phantôme :
@@ -112,8 +175,6 @@
    -Image citrouille : 
     https://pixabay.com/images/id-2892303/
    - Image château :
-    https://pixabay.com/images/id-5159011/
-
-   -Lien texte Wikipédia :
-    https://fr.wikipedia.org/wiki/Halloween 
+   https://pixabay.com/images/id-5159011/
+   -Lien texte : https://fr.wikipedia.org/wiki/Halloween 
     -->
